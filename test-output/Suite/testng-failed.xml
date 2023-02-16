@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="destinationCity" value="London"/>
+    <parameter name="departureCity" value="Boston"/>
+    <classes>
+      <class name="com.flight.Filght">
+        <methods>
+          <include name="selectFilght"/>
+        </methods>
+      </class> <!-- com.flight.Filght -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
