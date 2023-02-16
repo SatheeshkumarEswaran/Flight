@@ -116,6 +116,7 @@ public class FlightBooking {
 		driver.findElement(By.xpath("//input[@name='inputName']//ancestor::div//div//input[@id='rememberMe']")).click();
 
 		driver.findElement(By.xpath("//input[@name='inputName']//ancestor::div//div//input[@type='submit']")).click();
+		
 		driver.close();
 	}
 
