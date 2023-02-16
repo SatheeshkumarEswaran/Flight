@@ -116,14 +116,17 @@ public class FlightBooking {
 		driver.findElement(By.xpath("//input[@name='inputName']//ancestor::div//div//input[@id='rememberMe']")).click();
 
 		driver.findElement(By.xpath("//input[@name='inputName']//ancestor::div//div//input[@type='submit']")).click();
-
+		driver.close();
 	}
 
+	
 	public static void main(String[] args) throws IOException {
 		FlightBooking objectFlightBooking = new FlightBooking();
 		objectFlightBooking.selectCity();
 		objectFlightBooking.chooseFlight();
 		objectFlightBooking.reserveFlight();
+		
 	}
+	
 
 }
