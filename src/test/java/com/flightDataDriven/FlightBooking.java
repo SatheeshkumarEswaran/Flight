@@ -28,6 +28,7 @@ public class FlightBooking {
 
 		String string = " ";
 		System.out.println(rownum);
+		System.out.println(cellnum);
 		File file = new File("C:\\Users\\User\\eclipse-workspace\\FrameWorkClass\\Excel\\FlightBooking.xlsx");
 		FileInputStream stream = new FileInputStream(file);
 		Workbook workbook = new XSSFWorkbook(stream);
