@@ -27,6 +27,7 @@ public class FlightBooking {
 	public String readCell(int rownum, int cellnum) throws IOException {
 
 		String string = " ";
+		System.out.println(rownum);
 		File file = new File("C:\\Users\\User\\eclipse-workspace\\FrameWorkClass\\Excel\\FlightBooking.xlsx");
 		FileInputStream stream = new FileInputStream(file);
 		Workbook workbook = new XSSFWorkbook(stream);
